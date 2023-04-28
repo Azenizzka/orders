@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity-mappings v="5.4.3" rws="_16447191904442" cws="_16447191904442" persistenceUnitName="DEFAULT_PU" sm="false" xs="false" id="_16447191904431" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entity compositePrimaryKeyClass="StudentPK" abs="false" class="Student" pclass="Entity_1" v="true" xre="false" m="false" rootElement="_16447191904431" id="_16447192245513">
+        <ath>developer</ath>
+        <attributes>
+            <id attribute-type="Long" v="true" name="id" id="_16447192245954">
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Student.findAll">
+            <query>Select e from Student e</query>
+        </nq>
+    </entity>
+    <wsl>
+        <ws n="Main" id="_16447191904442">
+            <i ref="_16447192245513" x="182" y="175"/>
+        </ws>
+    </wsl>
+</entity-mappings>

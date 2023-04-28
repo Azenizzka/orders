@@ -1,0 +1,6 @@
+ru\hiik\studentcore\Order.class
+ru\hiik\studentcore\controller\OrderController.class
+ru\hiik\studentcore\ApiResponse.class
+ru\hiik\studentcore\websocket\WebSocketService.class
+META-INF\panache-archive.marker
+ru\hiik\studentcore\service\OrderService.class
